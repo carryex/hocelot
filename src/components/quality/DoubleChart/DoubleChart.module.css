@@ -1,0 +1,21 @@
+.inner_value {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 110.6%;
+    /* or 43px */
+
+    text-transform: uppercase;
+}
+
+.inner_title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 140.62%;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}

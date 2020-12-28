@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;700&display=swap');
+
+.app{
+    display: flex;
+    flex-direction: row;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    justify-content: center;
+}
+
+.content_center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.span_header{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 55px;
+    line-height: 76px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #0E4197;
+}
+
+.span_header_second{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #1E2128;
+}
+
+.span_text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #1E2128;
+}
+
+.button_create{
+    width: 191px;
+    height: 55px;
+    background: #0E4197;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 35px;
+}
+
+.help_center{
+    position: absolute;
+    bottom: 88px;
+    right: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 40px 20px;
+}
+
+.button_contact{
+    width: 191px;
+    height: 55px;
+    border: 1px solid #0E4197;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #0E4197;
+    margin-top: 25px;
+}

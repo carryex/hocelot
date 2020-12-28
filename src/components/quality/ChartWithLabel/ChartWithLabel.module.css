@@ -1,0 +1,42 @@
+.chart{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.label{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 90%;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.percentage{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 110.6%;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.total{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 148.5%;
+    letter-spacing: 0.02em;
+    color: #828282;
+}
